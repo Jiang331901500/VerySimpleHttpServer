@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Batman</title>
+        <style type="text/css">
+            label:not(.nlabel){
+                float: left;
+                width: 120px;
+                text-align: right;
+
+            }
+            input:not(.special){
+                margin-left: 10px;
+            }
+        </style>
+    </head>
+    <body>
+        <h1>This is an awesome HTML Page.</h1>
+        <p>Hello World！I'm Batman.</p><br>
+        <form name="input" action="service/putInfo" method="post">
+            <label>Your name: </label><input type="text" name="name"><br>
+            <label>Your age : </label><input type="text" name="age"><br>
+            <label>Gender : </label><input type="radio" name="sex" value="male" checked>Male
+            <input type="radio" name="sex" value="female">Female<br>
+            <label>Favorite thing: </label><input type="text" name="favorite">
+            <input type="submit" value="Go!">
+        </form>
+        <p style="text-align: center;"><img src="bat.jpg"></p>
+    </body>
+</html>
+
